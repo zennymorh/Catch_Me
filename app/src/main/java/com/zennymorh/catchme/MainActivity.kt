@@ -115,7 +115,10 @@ class MainActivity : AppCompatActivity() {
 
     override fun onResume() {
         super.onResume()
-        start()
+        timer.start()
+        handler.post(runnable)
+        score = 0
+        scoreText.text = "Score: " + score
     }
 
 }
