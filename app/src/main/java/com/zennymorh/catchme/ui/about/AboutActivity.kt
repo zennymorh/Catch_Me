@@ -1,7 +1,8 @@
-package com.zennymorh.catchme
+package com.zennymorh.catchme.ui.about
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.zennymorh.catchme.R
 
 class AboutActivity : AppCompatActivity() {
 
